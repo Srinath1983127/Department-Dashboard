@@ -1,0 +1,6 @@
+{
+  "name": "Department Budgeting Dashboard",
+  "description": "A clean, modern Financial Dashboard and 12-Month Project Planner UI for department budget management, cost tracking, and P&L analysis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

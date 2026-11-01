@@ -1,0 +1,48 @@
+{
+  "id": "/developer",
+  "name": "Developer Portal",
+  "short_name": "DevPortal",
+  "description": "Developer workspace, agile sprint boards, schedule timelines, and timesheets.",
+  "start_url": "/developer",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#2563eb",
+  "background_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Developer Portal",
+      "short_name": "Dev Portal",
+      "description": "Open Developer Portal directly",
+      "url": "/developer",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Financial Dashboard",
+      "short_name": "Dashboard",
+      "description": "Open Department Budget & Projects",
+      "url": "/",
+      "icons": [{ "src": "/pwa-192x192.png", "sizes": "192x192" }]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .scrollbar-none::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .scrollbar-none {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  /* Custom sleek horizontal scrollbar for months */
+  .custom-months-scrollbar::-webkit-scrollbar {
+    height: 10px;
+    width: 10px;
+  }
+  .custom-months-scrollbar::-webkit-scrollbar-track {
+    background: #f3e8ff;
+    border-radius: 9999px;
+  }
+  .custom-months-scrollbar::-webkit-scrollbar-thumb {
+    background: #9333ea;
+    border-radius: 9999px;
+    border: 2px solid #f3e8ff;
+  }
+  .custom-months-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #7e22ce;
+  }
+  .custom-months-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #9333ea #f3e8ff;
+  }
+}
+
